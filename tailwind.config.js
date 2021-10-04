@@ -9,7 +9,9 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: 'inherit',
+            color: {
+              'jolie-couleur': '#223a5c',
+            },
           },
         },
       }),

@@ -4,6 +4,7 @@
         {% include "head.njk" %}
         <link rel="stylesheet" href="/assets/site.css">
         <script src="/assets/site.js" defer></script>
+        <script src="/tailwind.config.js" defer></script>
     </head>
     <body>
         <header role="banner" class="p-6">
@@ -11,6 +12,7 @@
                 <a href="/" rel="home">{{ site.title }}</a>
             </div>
         </header>
+
         <main>
             {{ content | safe }}
         </main>
